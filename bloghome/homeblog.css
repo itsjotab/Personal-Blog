@@ -1,0 +1,33 @@
+body{
+    background:lightgrey;
+}
+.nav{
+    text-align: center;
+}
+a{
+    padding-right: 10px;
+}
+.head{
+    text-align: center;
+}
+#pg{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+#flex{
+    display:flex;
+    flex-direction: row;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
