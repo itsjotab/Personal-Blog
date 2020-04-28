@@ -13,6 +13,7 @@ body{
 .header4{
     background:blue;
 }
+/* grid display */
 .container{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -26,14 +27,26 @@ h1{
     color: Red;
 }
 img{
-    width: 70%;
-    height:70%;
+    width: 97%;
+    height:50%;
+    border-radius: 25%;
 }
-#me{
+/* card */
+#card{
     border:1px solid black;
+    background: grey;
+    border-radius: 15%;
+    text-align: center;
+    line-height: 15px;
+    height: 100%;
 }
+.cardContainer{
+    height: 40%;
+    width:100%;
+}
+/* grid display */
 #nested{
     display:grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
