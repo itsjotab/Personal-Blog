@@ -12,6 +12,7 @@ a{
 }
 #pg{
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 p{
     text-align: center;
@@ -34,4 +35,7 @@ footer{
 .img {
     width: 150px; 
     height: 150px;
+}
+h1, h2, h3{
+    font-family: 'Bangers', cursive;
 }
