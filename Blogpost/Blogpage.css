@@ -25,25 +25,7 @@ body{
 h1{
     text-align: center;
     color: Red;
-    font-family: 'Baloo Bhaina 2', cursive;
-}
-img{
-    width: 97%;
-    height:50%;
-    border-radius: 25%;
-}
-/* card */
-#card{
-    border:1px solid black;
-    background: grey;
-    border-radius: 15%;
-    text-align: center;
-    line-height: 15px;
-    height: 100%;
-}
-.cardContainer{
-    height: 40%;
-    width:100%;
+    font-family: 'Mukta', sans-serif;
 }
 /* grid display */
 #nested{
