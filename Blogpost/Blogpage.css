@@ -1,17 +1,25 @@
 body{
-    background:green;
+    background:pink;
 }
 .header{
-    background:grey;
+    background:blue;
+    font-size: 25px;
 }
 .header2{
-    background: lightgrey;
+    background: blue;
+    font-size: 25px;
 }
 .header3{
-    background: grey;
+    background :blue;
+    font-size: 25px;
 }
 .header4{
     background:blue;
+    font-size: 25px;
+}
+img {
+    height: 90px; 
+    width: 90px;
 }
 /* grid display */
 .container{
@@ -32,4 +40,12 @@ h1{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+}
+#flex {
+    display: flex;
+    flex-direction: row;
+    
+}
+#socialmedia {
+    text-align: center;
 }
