@@ -73,3 +73,10 @@ a{
 button{
     background-color: pink;
 }
+#flex {
+    display: flex;
+    flex-direction: row;
+}
+article {
+    text-align: center;
+}
